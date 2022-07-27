@@ -1,17 +1,17 @@
 -------------------------------------------------------------------------------
-Test set: Selenium.NewTest
+Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.162 sec <<< FAILURE!
-testcase1(Selenium.NewTest)  Time elapsed: 0.052 sec  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@name='userName']"}
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 48.874 sec <<< FAILURE!
+testcase2(Selenium.Testelearning)  Time elapsed: 8.612 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"PIM"}
   (Session info: chrome=103.0.5060.134)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'VYAS', ip: '192.168.108.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Pradeep\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:65097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 59e9b4b6a67afd5e9c3bdaa6fc3b8ee2
-*** Element info: {Using=xpath, value=//*[@name='userName']}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Pradeep\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4d5ab5a3ff4e2f6cf734b65f088fed2
+*** Element info: {Using=link text, value=PIM}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -23,8 +23,8 @@ Session ID: 59e9b4b6a67afd5e9c3bdaa6fc3b8ee2
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at Selenium.NewTest.testcase1(NewTest.java:76)
+	at Selenium.Testelearning.testcase2(Testelearning.java:91)
 

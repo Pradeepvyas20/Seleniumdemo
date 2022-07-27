@@ -15,7 +15,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 
-public class NewTestelearning 
+public class Testelearning 
 {
 	WebDriver driver; 
   @BeforeTest
