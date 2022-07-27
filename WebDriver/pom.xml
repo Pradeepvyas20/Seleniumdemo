@@ -37,7 +37,7 @@
 		<configuration>
 		<includes>
 <exclude>
-**/*NewTest.java
+**/*NewTestelearning.java
 </exclude>
 </includes>
 </configuration>
