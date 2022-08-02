@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="TestSuite" time="14.878" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="Selenium.Testelearning" time="8.078" errors="0" skipped="0">
   <properties>
-    <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
     <property name="java.vm.version" value="25.202-b08"/>
@@ -28,26 +27,26 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="C:\Users\Pradeep\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6650714251518614920.tmp"/>
-    <property name="jansi.force" value="true"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Pradeep/Downloads/221 july setups/sts-4.15.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/Pradeep/Downloads/221 july setups/sts-4.15.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\VMware\VMware Player\bin\;D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\Pradeep\Downloads\221 july setups\sts-4.15.1.RELEASE;;."/>
-    <property name="jansi.passthrough" value="true"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_202/bin;C:\Program Files\Java\jdk1.8.0_202/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\VMware\VMware Player\bin\;D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_202\bin;."/>
+    <property name="maven.conf" value="D:\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.3"/>
+    <property name="library.jansi.path" value="D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\Pradeep"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="Pradeep"/>
-    <property name="java.class.path" value="C:\Users\Pradeep\Downloads\221 july setups\sts-4.15.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_1.18.3.20220227-1319\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.class.path" value="D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test -Dstyle.color=always -Dstyle.color=always"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -56,8 +55,7 @@
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\Pradeep\git\Seleniumproj\WebDriver\EMBEDDED"/>
-    <property name="style.color" value="always"/>
+    <property name="maven.home" value="D:\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -65,24 +63,23 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Selenium.NewTest" name="testcase1" time="3.238"/>
-  <testcase classname="Selenium.Testelearning" name="testcase2" time="11.64">
+  <testcase classname="Selenium.Testelearning" name="testcase2" time="8.078">
     <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;PIM&quot;}
   (Session info: chrome=103.0.5060.134)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;VYAS&apos;, ip: &apos;192.168.108.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_202&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Pradeep\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 13ef94fb3b724872c300db9a546d779c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Pradeep\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58717}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 64ac5ed409b8606399e98d02e1f5ec4e
 *** Element info: {Using=link text, value=PIM}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;PIM&quot;}
   (Session info: chrome=103.0.5060.134)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;VYAS&apos;, ip: &apos;192.168.108.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_202&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Pradeep\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 13ef94fb3b724872c300db9a546d779c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\Pradeep\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58717}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 64ac5ed409b8606399e98d02e1f5ec4e
 *** Element info: {Using=link text, value=PIM}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -100,7 +97,18 @@ Session ID: 13ef94fb3b724872c300db9a546d779c
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at Selenium.Testelearning.testcase2(Testelearning.java:91)
 </failure>
-    <system-out>Total numbers of link  109
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@1517365b
+Total numbers of link  109
 </system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 103.0.5060.134 (8ec6fce403b3feb0869b0732eda8bd95011d333c-refs/branch-heads/5060@{#1262}) on port 12847
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 27, 2022 2:54:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
   </testcase>
 </testsuite>
